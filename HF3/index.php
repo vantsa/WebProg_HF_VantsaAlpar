@@ -1,8 +1,6 @@
 <?php
 
-include "CartItem.php";
-include "Cart.php";
-include "Product.php";
+include "loader.php";
 
 $product1 = new Product(1, "iPhone 14", 6400, 10);
 $product2 = new Product(2, "Xiaomi Air Fryer", 400, 52);

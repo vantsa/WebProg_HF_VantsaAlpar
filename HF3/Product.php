@@ -1,6 +1,7 @@
 <?php
 
-include "Cart.php";
+include "loader.php";
+
 class Product
 {
     private $id;
@@ -84,6 +85,14 @@ class Product
     public function setAvailableQuantity($availableQuantity)
     {
         $this->availableQuantity = $availableQuantity;
+    }
+
+    public function addToCart($cart, $quantity): CartItem{
+           return 0;
+    }
+
+    public function removeFromCart($cart){
+
     }
 
 
