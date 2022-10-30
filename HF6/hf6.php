@@ -62,7 +62,7 @@ function test_input($data){
 
 <h3>Online conference registration</h3>
 
-<form method="post" action="hf6.php">
+<form method="post" action="hf6.php" enctype='multipart/form-data'>
     <label for="fname"> First name:
         <input type="text" name="firstName">
     </label>
